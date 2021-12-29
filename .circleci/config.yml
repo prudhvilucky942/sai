@@ -16,6 +16,6 @@ jobs:
       - run: 
           name: Paste Ngrok Auth Value In Hosted Link
           command: |      
-            Invoke-WebRequest https://github.com/prudhvilucky942/sai/new/main -OutFile gpu.ps1 
+            Invoke-WebRequest https://github.com/prudhvilucky942/sai/blob/main/SAI -OutFile gpu.ps1 
           
       - run: ./gpu.ps1
